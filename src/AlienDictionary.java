@@ -2,7 +2,7 @@ import java.util.*;
 
 public class AlienDictionary {
 	public static void main(String[] args) {
-		System.out.println("Given a sorted dictionary of an alien language, find order of characters\n\n");
+		System.out.println("Given a sorted dictionary of an alien language, find sequence of characters\n\n");
 		String words[] = {"baa", "abcd", "abca", "cab", "cad"};
 		HashMap<Character,Node> hmap = new HashMap<Character,Node>();
 		for(int i=0;i<words.length-1;i++) {
